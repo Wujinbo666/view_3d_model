@@ -1,0 +1,44 @@
+{
+  "name": "view-3d-model",
+  "description": "A Vue.js component using three.js to view 3d-models.",
+  "version": "1.3.2",
+  "author": "Patrik Nyfeldt",
+  "license": "ISC",
+  "main": "src/index.js",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patriknyfeldt/view-3d-model.git"
+  },
+  "homepage": "https://github.com/patriknyfeldt/view-3d-model#readme",
+  "keywords": [
+    "vue",
+    "three.js",
+    "gltf"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/patriknyfeldt/view-3d-model/issues"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "dependencies": {
+    "lil-gui": "^0.18.1",
+    "three": "^0.150.1",
+    "vue": "^3.2.39"
+  },
+  "peerDependencies": {
+    "lil-gui": "^0.18.1",
+    "three": "^0.150.1",
+    "vue": "^3.2.39"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.3.9"
+  }
+}
